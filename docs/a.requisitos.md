@@ -12,3 +12,10 @@
 
 
 > Agrega el resto de requisitos siguiendo una estructura similar a la del ejemplo
+
+**Posibles implementaciones**
+- Separar diferentes partes del código en diversas clases, por ejemplo
+- Tener una clase llamada Emojis, que guarda toda la información de los emojis y los que se mostrarán dependiendo de la dificultad
+- Clase juego: Una clase que se encargue de seleccionar la dificultad, guarde la tabla de clasificación y tenga en su mayoria la implementación del juego.
+- Clase jugador: Debería haber una clase que guarde exclusivamente todos los datos del jugador, así como lso intentos, información adicional ademas del nombre y el país (en caso de requerirse) entre otros datos.
+- 
