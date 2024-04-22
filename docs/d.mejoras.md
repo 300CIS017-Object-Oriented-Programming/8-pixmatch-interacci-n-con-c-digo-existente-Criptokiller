@@ -45,3 +45,14 @@ Detalla en este markdown lo siguiente:
 - **Métodos Importantes:** Enumera los métodos principales para cada clase. Incluye una descripción de cuál sería la utilidad de cada método
 - **Imagen del UML del diagrama de clases**  Adjunta una imagen del UML del diagrama de clases como una forma visual de planificar y entender la estructura de las clases, métodos, atributos y relaciones que podría tener una versión mejorada del código fuente.
 - **Organización de archivos:** Propon una estructura de organización de los archivos de este proyecto para que no queden todos en la raiz principal. Investiga cuáles podrían ser buenas formas de organizar los directorios y a partir de tu investigación indica qué directorios crearías y cómo los organizarías. 
+
+
+- Clases a definir
+- Clase jugador: Guardaria toda la información necesaria de un jugador, como el puntaje que lleva, los intentos que lleva en la partida, otros datos del usuario.
+- -Metodos clase jugador:
+- Obtener el nombre, obtener el país, definir los intentos máximos, obtener cantidad de fallos, otros datos del usuario
+- Clase Emojis: Esta clase guardaria todo lo relacionado con los emojis que se mostrarán en el juego, para tenerlo de una forma más organizada.
+- Metodos clase Emojis: SetEmojis (para setear las listas con todos los emojis que se van a usar), setEmojisDifficult (para colocar los emojis que van a aparecer dependiendo de la dificultad elegida.)
+- 
+- Clase juego: Se podría tener una clase que se encargue de toda la lógica que deberá seguir el programa para que funcione correctamente y no se tenga todo en un solo lugar
+- Los metodos serán para definir por ejemplo la cantidad de emojis que ya han sido seleccionados, los emojis restantes, etc.
